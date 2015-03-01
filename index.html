@@ -5,20 +5,33 @@
     <title>What</title>
     <style>
       body {
-        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #444;
+        max-width: 400px;
+        margin: 0 auto;
       }
       h1 {
-        margin: 100px auto;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 20px auto;
+      }
+      h2 {
+        margin-top: 40px;
+      }
+      .project {
+        border-top: 1px solid #ccc;
       }
       a:link {
         text-decoration: none;
-        color: #444;
+        color: #e00;
+        display: inline-block;
+        border-bottom: 1px solid transparent;
       }
       a:visited {
-        color: #444;
+        color: #c00;
       }
       a:hover {
+        border-bottom: 1px solid #888;
+      }
+      h1 a:hover {
         -webkit-transition: all 2s ease-in-out;
         -moz-transition: all 2s ease-in-out;
         -o-transition: all 2s ease-in-out;
@@ -30,6 +43,114 @@
   </head>
 
   <body>
-    <h1><a href="http://github.com/storborg">What?</a></h1>
+    <h1><a href="https://github.com/storborg">Scott Torborg</a></h1>
+
+    <h2>Pyramid / WSGI Tools</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/storborg/pyramid_es">pyramid_es</a></h3>
+      <p>Elasticsearch integration for Pyramid.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/pyramid_frontend">pyramid_frontend</a></h3>
+      <p>Theme handling, image filtering, and asset optimization for Pyramid.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/pyramid_cron">pyramid_cron</a></h3>
+      <p>Simple scheduled tasks for Pyramid.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/pyramid_uniform">pyramid_uniform</a></h3>
+      <p>Form handling for Pyramid.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/gimlet">gimlet</a></h3>
+      <p>Versatile and high-performance WSGI sessions.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/manhattan">manhattan</a></h3>
+      <p>AB testing and visitor stats aggregation for WSGI apps.</p>
+    </div>
+
+    <h2>Hardware</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/storborg/pyeagle">pyeagle</a></h3>
+      <p><em>Very Incomplete</em> - An interchange layer and set of tools for working with Cadsoft EAGLE EDA files.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/pypcb">pypcb</a></h3>
+      <p><em>Very Incomplete</em> - Experimental utilities for representing PCBs and schematics across CAD platforms.</p>
+    </div>
+
+    <h2>Software</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/storborg/futurify">futurify</a></h3>
+      <p>Manage <code>__future__</code> imports for Python 3 forward compatibility.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/python-packaging">python-packaging</a></h3>
+      <p>Basic tutorial on how to package Python code for general consumption and use.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/nsmanage">nsmanage</a></h3>
+      <p>Tool for keeping DNS configuration in version control.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/typelift">typelift</a></h3>
+      <p>Download Typekit fonts for local development.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/pep8nazi">pep8nazi</a></h3>
+      <p>Keep your Python interpreter pristine by checking all code for PEP8 violations prior to import.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/livetest">livetest</a></h3>
+      <p>Like Paste WebTest, but for live webservers.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/seolint">seolint</a></h3>
+      <p>Basic SEO linting tool.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/mcgrep">mcgrep</a></h3>
+      <p>Grep for memcached.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/replaylib">replaylib</a></h3>
+      <p>Python tool to record and replay httplib actions for testing.</p>
+    </div>
+
+    <h2>Textiles / Weaving</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/storborg/pyweaving">pyweaving</a></h3>
+      <p>Python tools to read, write, render, and manipulate weaving drafts.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/warpworks">warpworks</a></h3>
+      <p>Web app for working with weaving drafts.</p>
+    </div>
+
+    <h2>Misc</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/storborg/glass-teardown">glass-teardown</a></h3>
+      <p>Teardown of Google Glass.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/sonypy">sonypy</a></h3>
+      <p><em>Fairly Incomplete</em> Python API to control Sony cameras.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/dotfiles">dotfiles</a></h3>
+      <p>Personal dotfiles.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/storborg/packagetrack">packagetrack</a></h3>
+      <p>API for working with shipping tracking numbers.</p>
+    </div>
+
   </body>
 </html>
